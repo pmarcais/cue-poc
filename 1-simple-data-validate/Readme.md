@@ -1,4 +1,4 @@
-### Step 1: Generate a CUE data model from a YAMl data model
+## Step 1: Generate a CUE data model from a YAMl data model
 
 Let's assume we have an existing data model written in YAML. We can convert this set of data to a CUE data model.
 
@@ -39,7 +39,7 @@ Let's assume we have an existing data model written in YAML. We can convert this
 </td>
 <td>
 
-```json
+```
 network: [{
     hostname: "Host1"
     interface: [{
@@ -67,7 +67,7 @@ network: [{
 
 Ideally, the data model could be defined in CUE without writting the YAML version first. Still the YAML version seems more readable than the json-like CUE version 
 
-### Step 2: Validate the data model 
+## Step 2: Validate the data model 
 
 ```console
 cue vet data-example.cue schema.cue
@@ -107,7 +107,7 @@ No output to those commands means no error in the data model
 </td>
 <td>
 
-```json
+```
 import (
   "net"
 )
