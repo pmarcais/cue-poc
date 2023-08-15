@@ -77,7 +77,7 @@ No output to those commands means no error in the data model
 
 <table>
 <tr>
-<td> DATA MODEL</td> <td> SCHEMA </td>
+<td> DATA </td> <td> DATA MODEL/SCHEMA </td>
 </tr>
 <tr>
 <td>
